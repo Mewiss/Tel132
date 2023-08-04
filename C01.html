@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/tel131.css">
+	<link rel="stylesheet" href="css/animRestricciones.css">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+
+	<style>
+		.fragment.bold {
+			font-weight: normal;
+		}
+
+		.fragment.bold.visible {
+			font-weight: bold;
+		}
+
+		.reveal td {
+			font-size: 60%;
+		}
+
+		.tg {
+			border-collapse: collapse;
+			border-spacing: 0
+		}
+
+		.tg td {
+			border-color: black;
+			border-style: solid;
+			border-width: 1px;
+			font-family: Arial, sans-serif;
+			font-size: 28px;
+			overflow: hidden;
+			padding: 10px 5px;
+			word-break: normal;
+		}
+
+		.tg th {
+			border-color: black;
+			border-style: solid;
+			border-width: 1px;
+			font-family: Arial, sans-serif;
+			font-size: 28px;
+			font-weight: normal;
+			overflow: hidden;
+			padding: 10px 5px;
+			word-break: normal;
+		}
+
+		.tg .tg-0lax {
+			text-align: center;
+			vertical-align: center;
+			font-size: 3vw;
+			border-width: 2px
+		}
+
+		.tg .tg-small {
+			text-align: center;
+			vertical-align: center;
+			font-size: 2vw
+		}
+
+		.smalltab {
+			font-size: 2vw
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="reveal">
+		<div class="slides">
+
+			<section class="Title" data-include>
+				<p class="r-fit-text">TEL131 Electrónica Digital</p>
+				<h2>Componentes Electrónicos Básicos</h2>
+				<p>Marie González-Inostroza</p>
+
+			</section>
+
+			<section>
+				<div class="row central-content">
+					<div class="col">
+						<h1>¡Hola!</h1>
+					</div>
+					<div class="col">
+						<div class="row central-content">
+							<img src="images/Marie.png">
+						</div>
+						<div class="row r-fit-text">
+							<p>Soy Marie González. Estoy aquí porque me encanta enseñar sobre tecnología. Me pueden
+								contactar al mail marie.gonzalez@usm.cl*
+							</p>
+
+							<small>
+								Respondo en horario hábil
+								(L-V de 9 a 18 hrs)
+							</small>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+
+
+
+
+
+			<section>
+				<h3>Coordenadas</h3>
+				<ul>
+					<li class="fragment">Nombre de la asignatura: Electrónica Digital</li>
+					<li class="fragment">Sigla: TEL-131</li>
+					<li class="fragment">Requisito: Mat-022 y Fis-120</li>
+					<li class="fragment">Carrera: Ing. Civil Telemática</li>
+					<li class="fragment">Dedicación: 4 SCT 118 hrs </li>
+					<li class="fragment">Clases presenciales:</li>
+					<ul class="fragment">
+						<li>Martes 09:35 Sala K-304 </li>
+						<li>Jueves 17:10 Sala A-011 </li>
+					</ul>
+					<li class="fragment">Plataforma: AULA</li>
+					<li class="fragment">Horario de consultas: M 10.45 a 11.45 previa cita</li>
+					<li class="fragment">Ayudantía: horario por confimar</li>
+				</ul>
+			</section>
+
+
+			<section>
+				<h2>3 cosas sobre mí</h2>
+				<div class="row central-content">
+					<img src="images/Marie-doc.png">
+				</div>
+			</section>
+
+			<section>
+				<h3>Resultados de aprendizaje</h3>
+				<small class="fragment">Al terminar el curso la/el estudiante será capaz de: </small>
+				<ul class="r-fit-text">
+					<li class="fragment">Explicar los componentes electrónicos digitales básicos, aplicando los modelos
+						físicos matemáticos para el diseño de los circuitos digitales de las distintas familias lógicas.
+					</li>
+					<li class="fragment">Analizar circuitos digitales estándar de las distintas familias lógicas,
+						aplicando modelos físico-matemáticos de los componentes electrónicos básicos.</li>
+					<li class="fragment">Aplicar los modelos fisico-matemáticos de los componentes electrónicos básicos,
+						analizando circuitos digitales estándar de manuales para las distintas familias lógicas.</li>
+					<li class="fragment">Diseñar circuitos digitales básicos, basándose en los estándares de manuales
+						para las distintas familias lógicas.</li>
+
+				</ul>
+			</section>
+
+			<section>
+				<h2>Evaluaciones</h2>
+				<div class="row central-content">
+					<div class="col fragment">
+						<img data-id="tareas" style='width: 50%; ' src="images/icons/report.png">
+						<h5>Tareas (T)</h5>
+					</div>
+					<div class="col fragment">
+						<img data-id="pruebas" style='width: 50%' src="images/icons/test.png">
+						<h5>Pruebas Escritas (E)</h5>
+					</div>
+
+					<div class="col fragment">
+						<img data-id="proyecto" style='width: 50%' src="images/icons/project.png">
+						<h5>Proyecto (P)</h5>
+					</div>
+				</div>
+
+			</section>
+
+			<section>
+				<h2>Evaluaciones</h2>
+				<div class="row central-content">
+					<div class="col ">
+						
+
+						<p><i class="fa fa-solid fa-star fa-5x"></i> </p>
+						
+						<h5>Bonus de Participación (B)</h5>
+					</div>
+					<div class="col fragment ">
+						<small>
+							5 ptos: Participa en al menos el 85% de las actividades en clases. En las
+							actividades se evidencia que realiza lo solicitado.
+							Además, realiza un trabajo destacado durante las clases.
+						</small>
+
+						<small>
+							4 ptos: Participa en al menos el 85% de las actividades en clases. En las
+							actividades se evidencia que realiza lo solicitado.
+						</small>
+
+						<small>
+							3 ptos: Participa en al menos el 75% de las actividades en clases. En las
+							actividades se evidencia que realiza lo solicitado.
+						</small>
+
+						<small>
+							2 ptos: Participa en al menos el 70% de las actividades en clases. En las
+							actividades se evidencia que realiza lo solicitado.
+						</small>
+
+						<small>
+							1 ptos: Participa en al menos el 65% de las actividades en clases. En las
+							actividades se evidencia que realiza lo solicitado.
+						</small>
+
+					</div>
+				</div>
+
+			</section>
+
+			<section>
+				<h2>Evaluaciones</h2>
+				<div class="row central-content">
+					<div class="col central-content">
+						<div class="row central-content">
+							<div class="col central-content">
+								<img data-id="tareas" style='width: 30%; ' src="images/icons/report.png">
+							</div>
+							<div class="col central-content small">
+								\[
+								\tiny
+								\begin{equation*}
+								T=\sum_{i=1}^{4} t_{i}
+								\end{equation*}\]
+
+							</div>
+						</div>
+						<div class="row central-content">
+							<div class="col">
+								<img data-id="pruebas" style='width: 30%' src="images/icons/test.png">
+							</div>
+							<div class="col">
+
+								\[\tiny\begin{equation*}
+								E=C1+C2+Ex
+								\end{equation*}\]
+							</div>
+						</div>
+
+						<div class="row central-content">
+							<div class="col">
+								<img data-id="proyecto" style='width: 30%' src="images/icons/project.png">
+							</div>
+							<div class="col">
+								\[\tiny\begin{equation*}
+								P=E0+E1+E2
+								\end{equation*}\]
+							</div>
+						</div>
+
+						<div class="row central-content">
+							<div class="col central-content" >
+								<i class="fa fa-solid fa-star fa-1x" ></i>
+							</div>
+							<div class="col">
+
+								\[\tiny\begin{equation*}
+								B=[0-5]
+								\end{equation*}\]
+							</div>
+						</div>
+					</div>
+
+
+					<div class="fragment col central-content">
+						<div class="row central-content fragment">
+							<h5>Nota Final
+								NF=T*0.4+E*0.4+P*0.2+B </h6>
+						</div>
+						<div class="row central-content fragment">
+							Criterios de aprobación:
+							<ul>
+								<li>NF>55</li>
+								<li>T>50</li>
+								<li>E>50</li>
+								<li>P>50</li>
+							</ul>
+						</div>
+					</div>
+
+			</section>
+
+			<section>
+				<h2>Metodología</h2>
+				<ul>
+					<li class="fragment">Clases con metodologías activas</li>
+					<ul class="fragment">
+						<li>Ejercicios</li>
+						<li>Debates grupales</li>
+						<li>Estudios de casos</li>
+					</ul>
+					<li class="fragment">Se requiere participación activa</li>
+					<li class="fragment">Avances tareas</li>
+					<li class="fragment">Cátedras cortas</li>
+					<li class="fragment">Controles en horario de clases</li>
+				</ul>
+
+			</section>
+
+			<section>
+				<h4>Qué se espera de ustedes en este curso:</h4>
+				<ul>
+					<li class="fragment">Equivocarse</li>
+					<li class="fragment">Participar activamente</li>
+					<li class="fragment">Estudio parcelado</li>
+					<li class="fragment">Disciplina</li>
+				</ul>
+
+			</section>
+
+			<section class="Title" data-include>
+				<p class="r-fit-text">TEL131 Electrónica Digital</p>
+				<h2>Introducción</h2>
+				<p>Marie González-Inostroza</p>
+
+			</section>
+
+
+
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script src="plugin/countdown/countdown.js"></script>
+	<script src="plugin/animate/plugin.js"></script>
+	<script src="plugin/animate/svg.min.js"></script>
+	<script src="plugin/math/math.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			autoAnimateEasing: 'ease-out',
+			autoAnimateDuration: 0.8,
+			hash: true,
+			slideNumber: true,
+			dependencies: [
+
+				{ src: "plugin/countdown/countdown.js" },
+
+			],
+			animate: {
+				autoplay: true
+			},
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMath.KaTeX, RevealMarkdown, RevealHighlight, RevealNotes, RevealAnimate],
+			countdown: { defaultTime: 300, autostart: true },
+
+			autoAnimateEasing: 'ease-out',
+			autoAnimateDuration: 10,
+			autoAnimateUnmatched: false
+
+		});
+
+		Reveal.configure({ pdfSeparateFragments: false });
+	</script>
+</body>
+
+</html>

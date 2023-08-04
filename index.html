@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/tel131.css">
+	<link rel="stylesheet" href="css/animRestricciones.css">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+
+	<style>
+		.fragment.bold {
+			font-weight: normal;
+		}
+
+		.fragment.bold.visible {
+			font-weight: bold;
+		}
+
+		.reveal td {
+			font-size: 60%;
+		}
+
+		.tg {
+			border-collapse: collapse;
+			border-spacing: 0
+		}
+
+		.tg td {
+			border-color: black;
+			border-style: solid;
+			border-width: 1px;
+			font-family: Arial, sans-serif;
+			font-size: 28px;
+			overflow: hidden;
+			padding: 10px 5px;
+			word-break: normal;
+		}
+
+		.tg th {
+			border-color: black;
+			border-style: solid;
+			border-width: 1px;
+			font-family: Arial, sans-serif;
+			font-size: 28px;
+			font-weight: normal;
+			overflow: hidden;
+			padding: 10px 5px;
+			word-break: normal;
+		}
+
+		.tg .tg-0lax {
+			text-align: center;
+			vertical-align: center;
+			font-size: 3vw;
+			border-width: 2px
+		}
+
+		.tg .tg-small {
+			text-align: center;
+			vertical-align: center;
+			font-size: 2vw
+		}
+
+		.smalltab {
+			font-size: 2vw
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="reveal">
+		<div class="slides">
+
+			<section class="Title" data-include>
+				<p class="r-fit-text">TEL132 Laboratorio de Electrónica Digital</p>
+				<h2>Introducción</h2>
+				<p>Marie González-Inostroza</p>
+
+			</section>
+
+			<section>
+				<div class="row central-content">
+					<div class="col">
+						<h1>¡Hola!</h1>
+					</div>
+					<div class="col">
+						<div class="row central-content">
+							<img src="images/Marie.png">
+						</div>
+						<div class="row r-fit-text">
+							<p>Soy Marie González. Estoy aquí porque me encanta enseñar sobre tecnología. Me pueden
+								contactar al mail marie.gonzalez@usm.cl*
+							</p>
+
+							<small>
+								Respondo en horario hábil
+								(L-V de 9 a 18 hrs)
+							</small>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+
+
+
+
+
+			<section>
+				<h3>Coordenadas</h3>
+				<ul>
+					<li class="fragment">Nombre de la asignatura: Laboratorio de Electrónica Digital</li>
+					<li class="fragment">Sigla: TEL-132</li>
+					<li class="fragment">Co-Requisito: Tel-131</li>
+					<li class="fragment">Carrera: Ing. Civil Telemática</li>
+					<li class="fragment">Dedicación: 4 SCT 116 hrs </li>
+					<li class="fragment">Clases presenciales: Viernes 9:00 a 12:15</li>
+					<li class="fragment">Plataforma: AULA</li>
+					<li class="fragment">Horario de consultas: M 10.45 a 11.45 previa cita</li>					
+				</ul>
+			</section>
+
+
+			
+
+			<section>
+				<h3>Resultados de aprendizaje</h3>
+				<small class="fragment">Al terminar el curso la/el estudiante será capaz de: </small>
+				<ul class="r-fit-text">
+					<li class="fragment">Explica el comportamiento de circuitos electrónicos, utilizando técnicas de medición de 
+						instrumentos especializados (Amperímetro, Voltímetro y Osciloscopio).
+					  </li>
+
+					  <li class="fragment">
+					   Interpreta datos obtenidos en el proceso de medición de problemas cotidianos, estableciendo 
+						hipótesis de solución.</li>
+						<li class="fragment"> Compara los antecedentes con los datos obtenidos matemáticamente, considerando las variables 
+						eléctricas voltaje y corriente.</li>
+						<li class="fragment">Valida soluciones de circuitos basados en familias lógicas, comparando los resultados obtenidos 
+						con la hipótesis propuesta.</li>
+						<li class="fragment"> Diseña un circuito electrónico, validando la solución propuesta para el problema identificado. 
+					  </li>
+
+				</ul>
+			</section>
+
+			<section>
+				<h2>Metodología</h2>
+				<ul>
+					<li class="fragment">Sesiones asíncronas de preparación</li>					
+					<li class="fragment">Trabajo en laboratorio con Kit de Arduino</li>
+					<li class="fragment">Cuaderno de laboratorio</li>					
+				</ul>
+
+			</section>
+
+			<section>
+				<h2>Metodología</h2>
+				<img height="100%" src="images/studentkit.jpg">
+
+			</section>
+
+			<section>
+				<h2>Evaluaciones</h2>
+				<div class="row central-content">
+					<div class="col fragment">
+						<img data-id="tareas" style='width: 50%; ' src="images/icons/report.png">
+						<h5>Trabajo Previo (T)</h5>
+					</div>
+					<div class="col fragment">
+						<img data-id="proyecto" style='width: 50%' src="images/icons/project.png">
+						<h5>Laboratorio (L)</h5>
+					</div>
+					
+					<div class="col fragment">
+						<img data-id="pruebas" style='width: 50%' src="images/icons/test.png">
+						<h5>Pruebas Escritas (E)</h5>
+						
+					</div>
+
+					
+				</div>
+
+			</section>
+
+			
+
+			<section>
+				<h2>Evaluaciones</h2>
+				<div class="row central-content">
+					
+					<div class="fragment col central-content">
+						<div class="row central-content fragment">
+							<h5>Nota Experiencias
+								Exp = L*0.7+T*0.15+CE*0.15 </h6>
+						</div>
+
+					<div class="fragment col central-content">
+						<div class="row central-content fragment">
+							<h5>Nota Final
+								NF=0.8*Exp+0.1*Cert+0.1*Ex </h6>
+						</div>
+						<div class="row central-content fragment">
+							Criterios de aprobación:
+							<ul>
+								<li>NF>55</li>
+								<li>Ex>55</li>
+							</ul>
+						</div>
+					</div>
+
+			</section>
+
+		
+
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script src="plugin/countdown/countdown.js"></script>
+	<script src="plugin/animate/plugin.js"></script>
+	<script src="plugin/animate/svg.min.js"></script>
+	<script src="plugin/math/math.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			autoAnimateEasing: 'ease-out',
+			autoAnimateDuration: 0.8,
+			hash: true,
+			slideNumber: true,
+			dependencies: [
+
+				{ src: "plugin/countdown/countdown.js" },
+
+			],
+			animate: {
+				autoplay: true
+			},
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMath.KaTeX, RevealMarkdown, RevealHighlight, RevealNotes, RevealAnimate],
+			countdown: { defaultTime: 300, autostart: true },
+
+			autoAnimateEasing: 'ease-out',
+			autoAnimateDuration: 10,
+			autoAnimateUnmatched: false
+
+		});
+
+		Reveal.configure({ pdfSeparateFragments: false });
+	</script>
+</body>
+
+</html>
